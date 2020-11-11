@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+}
+ul>li{
+  padding: 10px;
+}
+ul>li>a{
+  text-decoration: none;
+  color: peru;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form>input{
+  margin: 10px;
+}
